@@ -1,7 +1,7 @@
 import React from 'react'
-// import About from './components/About';
+import About from './components/About';
 // import Skills from './components/Skills';
-// import Home from './components/Home';
+import Home from './components/Home';
 import Navbar from './components/Navbar';
 // import Projects from './components/Projects';
 // import Contact from './components/Contact';
@@ -12,9 +12,9 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      {/* <Home />
+      <Home />
       <About />
-      <Projects />
+      {/* <Projects />
       <Skills />
       <Contact />
       <Footer />

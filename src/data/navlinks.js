@@ -15,11 +15,11 @@ const navLinks = [
         id: 4,
         link: "Skills"
     },
-    // {
-    //     id: 5,
-    //     href:"",
-    //     link: "Blog"
-    // },
+    {
+        id: 5,
+        href:"",
+        link: "Blog"
+    },
     {
         id: 6,
         link: "Contact"
