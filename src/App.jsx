@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-// import BackToTopButton from './components/BackToTopButton';
+import BackToTopButton from './components/BackToTopButton';
 
 const App = () => {
   return (
@@ -18,7 +18,7 @@ const App = () => {
       <Skills />
       <Contact />
       <Footer />
-      {/* <BackToTopButton /> */}
+      <BackToTopButton />
     </div>
   )
 }
