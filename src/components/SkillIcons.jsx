@@ -291,6 +291,19 @@ const MySQL = ({ width = 45, height = 45 }) => {
         </>
     )
 }
+
+const GraphQL = ({ width = 45, height = 45 }) => {
+    return (
+        <>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width={width} height={height}>
+                <path fill="#E10098" d="M57.468 302.66L193.744 383.23 193.744 428.85 0 316.076 0 27.7748 193.744 109.388 193.744 153.073 57.468 121.603 57.468 302.66Z" />
+                <path fill="#E10098" d="M342.537 302.663L206.255 383.235V428.857L400 316.081V27.7809L206.255 109.392V153.078L342.537 121.621L342.537 302.663Z" />
+                <path fill="#E10098" d="M206.348 174.31V93.3635L366.635 160.367L206.348 227.272V174.31ZM33.3652 93.3635L193.639 160.367L193.639 227.796L33.3652 160.367V93.3635Z" />
+                <path fill="#E10098" d="M206.348 282.276L346.628 218.328L206.348 292.334V433.211L33.3652 300.735L206.348 282.276ZM342.537 302.663L206.261 383.237V428.857L400.005 316.081L342.537 302.663Z" />
+            </svg>
+        </>
+    )
+}
 const CSharp = ({ width = 35, height = 45 }) => {
     return (
         <>
@@ -478,7 +491,7 @@ export {
     JS, NextJs, HTML, CSS, TS, TailwindCSS, ExpressJS, NodeJS, MongoDB,
     C, CPlusPlus, Python, Java, Kotlin, PHP, CSharp,
     Bootstrap, SASS, MaterialUI,
-    MySQL, FireBase, Redis, PostGreSql,
+    MySQL,GraphQL, FireBase, Redis, PostGreSql,
     VSCode, Git, GitHub, Bash, PostMan, Heroku,
     Redux, JQuery, Kubernets, Doker, DotNet
 };

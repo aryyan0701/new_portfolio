@@ -1,23 +1,20 @@
-import Dev_Notes from "../assets/Projects/DEV_NOTES.png"
-import Dev_News from "../assets/Projects/Dev_News.png"
-import CLI_TMA from "../assets/Projects/CLI_TMA.png"
-import ECF from "../assets/Projects/ECF.png"
-import FAC from "../assets/Projects/FAC.png"
-import ECOMMERCE_DASHBOARD from "../assets/Projects/ECOMMERCE_DASHBOARD.png"
-import DevFolio from "../assets/Projects/DevFolio.png"
-import SIMON_GAME from "../assets/Projects/SIMON_GAME.png"
-import TODO_APP from "../assets/Projects/TODO_APP.png"
-
+import Task_Tracker from "../assets/Projects/Task_Tracker.png";
+import Quizzify from "../assets/Projects/Quizzify.png";
+import Bloggify from "../assets/Projects/Bloggify.png";
+import Sandbox from "../assets/Projects/Sandbox.png";
+import Type_Verse from "../assets/Projects/Type_Verse.png";
+import Guessing_Game from "../assets/Projects/Guessing_Game.png";
+import Currency_Converter from "../assets/Projects/Currency_Converter.png"
 
 
 
 const projects = [
     {
-        img: ECOMMERCE_DASHBOARD,
+        img: Task_Tracker,
         name: "Ecommerce_Dashboard",
-        demo: "https://ecommerce-dashboard-793.vercel.app/",
-        code: "https://github.com/dhawal-793/Ecommerce_Dashboard",
-        description: "All in One Dashboard for managing Ecommerce Stores, built with NextJS, ReactJs and shadcn-ui with prisma, typescript, planetScale, and clerkauth.",
+        demo: "https://notes-seven-liart.vercel.app/",
+        code: "https://github.com/aryyan0701/notes",
+        description: " This platform is designed to help users manage their daily tasks effectively, built with reactjs, tailwind for styling, framer-motion library, vercel.",
         style: {
             shadow: "shadow-[#3498AB]",
             cover: "from-[#3498AB]",
@@ -37,11 +34,11 @@ const projects = [
     //     }
     // },
     {
-        img: Dev_News,
-        name: "Dev_News",
-        demo: "https://dev-news-793.vercel.app/",
-        code: "https://github.com/dhawal-793/Dev_News",
-        description: "Dev News is a news website, where you can find the latest news anytime, anywhere",
+        img: Quizzify,
+        name: "Quizzify",
+        demo: "https://quizzad.netlify.app/",
+        code: "https://github.com/aryyan0701/Quizzify",
+        description: "This platform is dedicated to testing users' knowledge in the field of technology. built using react js, tailwind css, netlify",
         style: {
             shadow: "shadow-[#FB923C]",
             cover: "from-[#FB923C]",
@@ -49,11 +46,11 @@ const projects = [
         }
     },
     {
-        img: DevFolio,
-        name: "DevFolio",
-        demo: "https://dev-folio-793.vercel.app",
-        code: "https://github.com/dhawal-793/DevFolio",
-        description: "Devfolio: Dhawal's Personal portfolio built with React Js, Tailwind CSS and Vite Js",
+        img: Bloggify,
+        name: "Bloggify",
+        demo: "https://aryyan0701.github.io/Bloggify/",
+        code: "https://github.com/aryyan0701/Bloggify",
+        description: "This website is dedicated to providing users a simple static UI templet of blog site.",
         style: {
             shadow: "shadow-[#23CEEE]",
             cover: "from-[#23CEEE]",
@@ -61,11 +58,11 @@ const projects = [
         }
     },
     {
-        img: Dev_Notes,
-        name: "DevNotes",
-        demo: "https://dev-notes-793.vercel.app/",
-        code: "https://github.com/dhawal-793/Dev_Notes",
-        description: "DevNotes is a Simple Notes App Created using MERN Stack with complete user Authentication.",
+        img: Sandbox,
+        name: "sandbox_clone",
+        demo: "https://aryyan0701.github.io/sandbox_clone/",
+        code: "https://github.com/aryyan0701/sandbox_clone",
+        description: "This project is a clone of the Sandbox website, offering seamless and impressive design both in web and responsive formats.",
         style: {
             shadow: "shadow-[#F8FAFC]",
             cover: "from-[#F8FAFC]",
@@ -73,11 +70,11 @@ const projects = [
         }
     },
     {
-        img: FAC,
-        name: "FontAwesome Clone",
-        demo: "https://dhawal-793.github.io/Font-Awesome-Clone/",
-        code: "https://github.com/dhawal-793/Font-Awesome-Clone",
-        description: "FontAwesome Clone is a Project based on Fontawesome.com, created using React Js and Tailwind CSS.",
+        img: Guessing_Game,
+        name: "Guess-the-name",
+        demo: "https://extraordinary-fudge-e2bb79.netlify.app/",
+        code: "https://github.com/aryyan0701/Guess-the-name",
+        description: "Simple game to guess the words as per the hints and images provided, created using html, css and venila Js",
         style: {
             shadow: "shadow-[#FFD43B]",
             cover: "from-[#FFD43B]",
@@ -85,53 +82,53 @@ const projects = [
         }
     },
     {
-        img: SIMON_GAME,
-        name: "Simon Game",
-        demo: "https://dhawal-793.github.io/Simon-Game/",
-        code: "https://github.com/dhawal-793/Simon-Game",
-        description: "Simon Game is a very simple game created using React Js and Tailwind CSS.",
+        img: Type_Verse,
+        name: "Type Verse",
+        demo: "https://aryyan0701.github.io/type_verse/",
+        code: "https://github.com/aryyan0701/type_verse",
+        description: "Type-it is a minimalistic typing speed testing app built with React and TailwindCSS that is highly inspired by other platform. The app allows users to test and improve their typing speed and accuracy. ",
         style: {
             shadow: "shadow-[#011F3F]",
             cover: "from-[#011F3F]",
             display: " hidden group-hover:flex"
         }
     },
+    // {
+    //     img: TODO_APP,
+    //     name: "TODO APP",
+    //     demo: "https://meen-to-do-app.onrender.com/",
+    //     code: "https://github.com/dhawal-793/MEEN-TODO-APP",
+    //     description: "MEEN ToDO App is a very simple Todo App created using MongoDb,Express Js EJs and Node Js.",
+    //     style: {
+    //         shadow: "shadow-[#A582E2]",
+    //         cover: "from-[#A582E2]",
+    //         display: " hidden group-hover:flex"
+    //     }
+    // },
     {
-        img: TODO_APP,
-        name: "TODO APP",
-        demo: "https://meen-to-do-app.onrender.com/",
-        code: "https://github.com/dhawal-793/MEEN-TODO-APP",
-        description: "MEEN ToDO App is a very simple Todo App created using MongoDb,Express Js EJs and Node Js.",
-        style: {
-            shadow: "shadow-[#A582E2]",
-            cover: "from-[#A582E2]",
-            display: " hidden group-hover:flex"
-        }
-    },
-    {
-        img: ECF,
-        name: "Ecommerce Frontend",
-        demo: "https://dhawal-793.github.io/E-Commerce-Website-Front-End-Design/",
-        code: "https://github.com/dhawal-793/E-Commerce-Website-Front-End-Design",
-        description: "Frontend Design of an Ecommerce Website created using HTML CSS JS and Bootstrap.",
+        img: Currency_Converter,
+        name: "Currency_Converter",
+        demo: "",
+        code: "https://github.com/aryyan0701/Currency_converter",
+        description: "Simple Currency Converter app created using HTML, CSS, JS, Bootstrap and REST api.",
         style: {
             shadow: "shadow-[#CEC3FB]",
             cover: "from-[#CEC3FB]",
             display: " hidden group-hover:flex"
         }
     },
-    {
-        img: CLI_TMA,
-        name: "Task Manager CLI",
-        demo: "https://github.com/dhawal-793/Command-line-application-for-Task-Management",
-        code: "https://github.com/dhawal-793/Command-line-application-for-Task-Management",
-        description: "This is a Task Management CLI App created using C++, here user can create, read, Update and delete tasks.",
-        style: {
-            shadow: "shadow-[#763145]",
-            cover: "from-[#763145]",
-            display: " hidden group-hover:flex"
-        }
-    },
+    // {
+    //     img: CLI_TMA,
+    //     name: "Task Manager CLI",
+    //     demo: "https://github.com/dhawal-793/Command-line-application-for-Task-Management",
+    //     code: "https://github.com/dhawal-793/Command-line-application-for-Task-Management",
+    //     description: "This is a Task Management CLI App created using C++, here user can create, read, Update and delete tasks.",
+    //     style: {
+    //         shadow: "shadow-[#763145]",
+    //         cover: "from-[#763145]",
+    //         display: " hidden group-hover:flex"
+    //     }
+    // },
     // {
     //     img: "",
     //     name: "WordCloud Generator",
