@@ -1,4 +1,4 @@
-import ReactJs, { JS, NextJs, TailwindCSS, Git, GitHub, VSCode } from "../components/SkillIcons"
+import ReactJs, { JS, NextJs, TailwindCSS, Git, GitHub, FireBase, TS } from "../components/SkillIcons"
 
 
 const TechStack = [
@@ -16,14 +16,26 @@ const TechStack = [
     },
     {
         id: 3,
+        icon: <TS width={22} height={30} />,
+        name: "Typescript",
+
+    },
+    {
+        id: 3,
         icon: <TailwindCSS width={25} height={30} />,
         name: "TailwindCSS",
 
     },
+    // {
+    //     id: 4,
+    //     icon: <NextJs width={35} height1={20} height2={15} />,
+    //     name: "NextJs",
+
+    // },
     {
         id: 4,
-        icon: <NextJs width={35} height1={20} height2={15} />,
-        name: "NextJs",
+        icon: <FireBase width={25} height={30} />,
+        name: "FireBase",
 
     },
     {
@@ -36,12 +48,6 @@ const TechStack = [
         id: 6,
         icon: <GitHub width={25} height={30} />,
         name: "GitHub",
-
-    },
-    {
-        id: 7,
-        icon: <VSCode width={25} height={30} />,
-        name: "VsCode",
 
     },
 ]
