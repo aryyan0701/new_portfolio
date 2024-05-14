@@ -6,7 +6,7 @@ import Skill from './Skill'
 
 const Skills = () => {
     return (
-        <div name="Skills" className='pt-10 h-full min-h-screen w-full flex items-center bg-gradient-to-b from-gray-800 to-black'>
+        <div id="Skills" className='pt-10 h-full min-h-screen w-full flex items-center bg-gradient-to-b from-gray-800 to-black'>
             <div className="section">
                 <SectionHeading heading="Skills" secondHeading="These are the Technologies I've worked with" />
                 <div className="py-2 xs:p-4 rounded-lg bg-gray-900">

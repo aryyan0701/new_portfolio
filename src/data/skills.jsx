@@ -156,8 +156,8 @@ const skills = [
         icon: <GraphQL />,
         name: "GraphQL",
         style: {
-            shadow: "shadow-[#00618A]",
-            cover: "from-black to-[#00618A] rounded-b-md",
+            shadow: "shadow-[#FF1493]",
+            cover: "from-black to-[#FF1493] rounded-b-md",
             opacity: "opacity-80"
 
         }

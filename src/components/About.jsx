@@ -7,7 +7,7 @@ import techStack from '../data/techStack';
 
 const About = () => {
     return (
-        <div name='About' className=' pt-8 h-full min-h-screen w-full flex items-center  bg-gradient-to-b to-black via-black from-gray-800 '>
+        <div id='About' className=' pt-8 h-full min-h-screen w-full flex items-center  bg-gradient-to-b to-black via-black from-gray-800 '>
             <div className='section justify-between'>
                 <SectionHeading heading="About Me" />
                 <div className='mb-10  flex flex-col justify-center '>

@@ -8,7 +8,7 @@ const Home = () => {
     const work = ['WEB Developer', 2000, 'REACT Developer', 2000, 'ANGULAR Developer', 2000, 'TECH Enthusiast', 2000, 'OPEN Source Contributor', 2000]
 
     return (  
-        <div name='Home' className='pt-8 h-full min-h-screen w-full flex items-center bg-gradient-to-b from-black via-black to-gray-800 '>
+        <div id='Home' className='pt-8 h-full min-h-screen w-full flex items-center bg-gradient-to-b from-black via-black to-gray-800 '>
             <div className='section gap-16 md:gap-1 md:justify-between items-center md:flex-row-reverse'>
                 <div className='flex flex-col justify-center md:w-2/5 max-w-[320px]'>
                     <img src={Avatar} alt="" width="auto" height="auto" loading='eager' title='Avatar' className='rounded-[14px] mx-auto w-full ' />
