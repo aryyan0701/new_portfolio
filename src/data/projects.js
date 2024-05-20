@@ -4,11 +4,38 @@ import Bloggify from "../assets/Projects/Bloggify.png";
 import Sandbox from "../assets/Projects/Sandbox.png";
 import Type_Verse from "../assets/Projects/Type_Verse.png";
 import Guessing_Game from "../assets/Projects/Guessing_Game.png";
-import Currency_Converter from "../assets/Projects/Currency_Converter.png"
+import Currency_Converter from "../assets/Projects/Currency_Converter.png";
+import Repofinder from "../assets/Projects/Repofinder.png";
+import briefify from "../assets/Projects/briefify.png"
+
 
 
 
 const projects = [
+    {
+        img: Repofinder,
+        name: "Github-Repofinder",
+        demo: "https://github-repofinder.vercel.app/",
+        code: "https://github.com/aryyan0701/github_repofinder",
+        description: " RepoFinder is platform where beginners, intermediate, advanced all type of dev's can find the repos as per there interest, knowledge and their personal tech stack to contribute in open source.",
+        style: {
+            shadow: "shadow-[#333333]",
+            cover: "from-[#333333]",
+            display: " hidden group-hover:flex"
+        }
+    },
+    {
+        img: briefify,
+        name: "Briefify",
+        demo: "https://text-summarization-six.vercel.app/",
+        code: "https://github.com/aryyan0701/text-summarization",
+        description: "This application leverages the power of AI to provide concise and accurate summaries, helping you save time and understand the core ideas of any lengthy text.",
+        style: {
+            shadow: "shadow-[#011F3F]",
+            cover: "from-[#011F3F]",
+            display: " hidden group-hover:flex"
+        }
+    },
     {
         img: Task_Tracker,
         name: "Ecommerce_Dashboard",
