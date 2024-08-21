@@ -6,12 +6,35 @@ import Type_Verse from "../assets/Projects/Type_Verse.png";
 import Guessing_Game from "../assets/Projects/Guessing_Game.png";
 import Currency_Converter from "../assets/Projects/Currency_Converter.png";
 import Repofinder from "../assets/Projects/Repofinder.png";
-import briefify from "../assets/Projects/briefify.png"
-
-
+import briefify from "../assets/Projects/briefify.png";
+import Battelfy from "../assets/Projects/Battelfy.png";
 
 
 const projects = [
+     {
+        img: Battelfy,
+        name: "Battelfy",
+        demo: "https://e-sports-ashy.vercel.app/",
+        code: "https://github.com/aryyan0701/e-sports",
+        description: "This platform provides you all information about upcoming e-sport events, and functionality to participate in that events.  ",
+        style: {
+            shadow: "shadow-[#A582E2]",
+            cover: "from-[#A582E2]",
+            display: " hidden group-hover:flex"
+        }
+    },
+    {
+        img: "https://cdn.hashnode.com/res/hashnode/image/upload/v1721746767664/923b7fe6-a143-4e6c-aaff-941922f1c36b.png?auto=compress,format&format=webp",
+        name: "Multilingual_React_App",
+        demo: "https://react-i18-xi.vercel.app/",
+        code: "https://github.com/aryyan0701/react-i18",
+        description: "Multilingual is all about how to make a react app in any language using i18next or react-i18next.",
+        style: {
+            shadow: "shadow-[#FB923C]",
+            cover: "from-[#FB923C]",
+            display: " hidden group-hover:flex"
+        }
+    },
     {
         img: Repofinder,
         name: "Github-Repofinder",
@@ -48,18 +71,6 @@ const projects = [
             display: " hidden group-hover:flex"
         }
     },
-    // {
-    //     img: Dev_News,
-    //     name: "Dev_Store",
-    //     demo: "https://dev-store-793.vercel.app/",
-    //     code: "https://github.com/dhawal-793/Dev_Store",
-    //     description: "DevStore is an All in One E-Commerce Shopping website built with NextJs,",
-    //     style: {
-    //         shadow: "shadow-[#FB923C]",
-    //         cover: "from-[#FB923C]",
-    //         display: " hidden group-hover:flex"
-    //     }
-    // },
     {
         img: Quizzify,
         name: "Quizzify",
@@ -72,18 +83,18 @@ const projects = [
             display: " hidden group-hover:flex"
         }
     },
-    {
-        img: Bloggify,
-        name: "Bloggify",
-        demo: "https://aryyan0701.github.io/Bloggify/",
-        code: "https://github.com/aryyan0701/Bloggify",
-        description: "This website is dedicated to providing users a simple static UI templet of blog site.",
-        style: {
-            shadow: "shadow-[#23CEEE]",
-            cover: "from-[#23CEEE]",
-            display: " hidden group-hover:flex"
-        }
-    },
+    // {
+    //     img: Bloggify,
+    //     name: "Bloggify",
+    //     demo: "https://aryyan0701.github.io/Bloggify/",
+    //     code: "https://github.com/aryyan0701/Bloggify",
+    //     description: "This website is dedicated to providing users a simple static UI templet of blog site.",
+    //     style: {
+    //         shadow: "shadow-[#23CEEE]",
+    //         cover: "from-[#23CEEE]",
+    //         display: " hidden group-hover:flex"
+    //     }
+    // },
     {
         img: Sandbox,
         name: "sandbox_clone",
@@ -96,18 +107,18 @@ const projects = [
             display: " hidden group-hover:flex"
         }
     },
-    {
-        img: Guessing_Game,
-        name: "Guess-the-name",
-        demo: "https://extraordinary-fudge-e2bb79.netlify.app/",
-        code: "https://github.com/aryyan0701/Guess-the-name",
-        description: "Simple game to guess the words as per the hints and images provided, created using html, css and venila Js",
-        style: {
-            shadow: "shadow-[#FFD43B]",
-            cover: "from-[#FFD43B]",
-            display: " hidden group-hover:flex"
-        }
-    },
+    // {
+    //     img: Guessing_Game,
+    //     name: "Guess-the-name",
+    //     demo: "https://extraordinary-fudge-e2bb79.netlify.app/",
+    //     code: "https://github.com/aryyan0701/Guess-the-name",
+    //     description: "Simple game to guess the words as per the hints and images provided, created using html, css and venila Js",
+    //     style: {
+    //         shadow: "shadow-[#FFD43B]",
+    //         cover: "from-[#FFD43B]",
+    //         display: " hidden group-hover:flex"
+    //     }
+    // },
     {
         img: Type_Verse,
         name: "Type Verse",
