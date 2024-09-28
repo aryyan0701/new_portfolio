@@ -4,9 +4,11 @@ import resume from "../assets/resume.pdf"
 // import profile from "../assets/profile.jpg"
 import SectionHeading from './SectionHeading';
 import techStack from '../data/techStack';
+import Skills from './Skills';
 
 const About = () => {
     return (
+        <>
         <div id='About' className=' pt-8 h-full min-h-screen w-full flex items-center  bg-gradient-to-b to-black via-black from-gray-800 '>
             <div className='section justify-between'>
                 <SectionHeading heading="About Me" />
@@ -27,25 +29,6 @@ const About = () => {
                         My focus lies in delivering exceptional user experiences through intuitive and scalable UI components.I have honed my skills in crafting impressive user interfaces, ensuring seamless navigation and optimal performance across devices.
                         </p>
                     </div>
-                    <div className='py-3 text-gray-50 sm:flex font-semibold'>
-                        <div className='mb-3'>  My Tech Stack ~</div>
-                        <ul className='px-2 flex gap-5 z-40 flex-wrap'>
-                            {
-                                techStack.map(({ id, icon, name }) => {
-                                    return (
-                                        <li key={id} className=" relative list-none group">
-                                            <span className='z-20'>
-                                                {icon}
-                                            </span>
-                                            <div className="flex scale-0 sm:group-hover:scale-100 group-focus:scale-100 transition ease-out duration-300 delay-100 origin-center justify-center items-center absolute z-50 -bottom-10 left-1/2 -translate-x-1/2 w-auto h-6 py-2 px-3 bg-gray-900 text-sm text-gray-300">
-                                                {name}
-                                            </div>
-                                        </li>
-                                    )
-                                })
-                            }
-                        </ul>
-                    </div>
                     <div className='py-5'>
                         <a href={resume} target="_blank" rel="noreferrer" download={true} className='z-30  group bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center gap-3 px-6 py-3  rounded-lg ease-linear duration-300 delay-75 transition-all cursor-pointer w-36 relative'>
                             <span className='pr-6 sm:pr-0 sm:group-hover:-translate-x-5 sm:transition-transform delay-[400ms] ease-out'>Resume</span>
@@ -55,8 +38,10 @@ const About = () => {
                         </a>
                     </div>
                 </div>
+            <Skills/>
             </div>
         </div>
+        </>
     )
 }
 
