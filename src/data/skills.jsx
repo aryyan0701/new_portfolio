@@ -43,27 +43,27 @@ const skills = [
             opacity: "opacity-80"
         }
     },
-    // {
-    //     id: 5,
-    //     icon: <MongoDB />,
-    //     name: "MongoDB",
-    //     style: {
-    //         shadow: "shadow-[#4FAA41]",
-    //         cover: "from-black to-[#4FAA41] rounded-b-md",
-    //         opacity: "opacity-80"
+    {
+        id: 5,
+        icon: <MongoDB />,
+        name: "MongoDB",
+        style: {
+            shadow: "shadow-[#4FAA41]",
+            cover: "from-black to-[#4FAA41] rounded-b-md",
+            opacity: "opacity-80"
 
-    //     }
-    // },
-    // {
-    //     id: 6,
-    //     icon: <ExpressJS />,
-    //     name: "Express Js",
-    //     style: {
-    //         shadow: "shadow-[#444444]",
-    //         cover: "from-black to-[#444444] rounded-b-md",
-    //         opacity: "opacity-80"
-    //     }
-    // },
+        }
+    },
+    {
+        id: 6,
+        icon: <ExpressJS />,
+        name: "Express Js",
+        style: {
+            shadow: "shadow-[#444444]",
+            cover: "from-black to-[#444444] rounded-b-md",
+            opacity: "opacity-80"
+        }
+    },
 
     {
         id: 7,
@@ -140,17 +140,17 @@ const skills = [
 
         }
     },
-    {
-        id: 14,
-        icon: <MySQL />,
-        name: "MySQL",
-        style: {
-            shadow: "shadow-[#00618A]",
-            cover: "from-black to-[#00618A] rounded-b-md",
-            opacity: "opacity-80"
+    // {
+    //     id: 14,
+    //     icon: <MySQL />,
+    //     name: "MySQL",
+    //     style: {
+    //         shadow: "shadow-[#00618A]",
+    //         cover: "from-black to-[#00618A] rounded-b-md",
+    //         opacity: "opacity-80"
 
-        }
-    },
+    //     }
+    // },
     {
         id: 36,
         icon: <GraphQL />,
@@ -247,17 +247,17 @@ const skills = [
 
     //     }
     // },
-    {
-        id: 22,
-        icon: <C />,
-        name: "C",
-        style: {
-            shadow: "shadow-[#3949AB]",
-            cover: "from-black to-[#3949AB] rounded-b-md",
-            opacity: "opacity-80"
+    // {
+    //     id: 22,
+    //     icon: <C />,
+    //     name: "C",
+    //     style: {
+    //         shadow: "shadow-[#3949AB]",
+    //         cover: "from-black to-[#3949AB] rounded-b-md",
+    //         opacity: "opacity-80"
 
-        }
-    },
+    //     }
+    // },
     // {
     //     id: 23,
     //     icon: <Kotlin />,
@@ -280,17 +280,17 @@ const skills = [
 
     //     }
     // },
-    {
-        id: 25,
-        icon: <VSCode />,
-        name: "VS Code",
-        style: {
-            shadow: "shadow-[#1D95E5]",
-            cover: "from-black to-[#1D95E5] rounded-b-md",
-            opacity: "opacity-80"
+    // {
+    //     id: 25,
+    //     icon: <VSCode />,
+    //     name: "VS Code",
+    //     style: {
+    //         shadow: "shadow-[#1D95E5]",
+    //         cover: "from-black to-[#1D95E5] rounded-b-md",
+    //         opacity: "opacity-80"
 
-        }
-    },
+    //     }
+    // },
     // {
     //     id: 26,
     //     icon: <Bash />,
@@ -313,28 +313,28 @@ const skills = [
 
     //     }
     // },
-    // {
-    //     id: 28,
-    //     icon: <Redux />,
-    //     name: "Redux",
-    //     style: {
-    //         shadow: "shadow-[#764ABC]",
-    //         cover: "from-black to-[#764ABC] rounded-b-md",
-    //         opacity: "opacity-80"
+    {
+        id: 28,
+        icon: <Redux />,
+        name: "Redux",
+        style: {
+            shadow: "shadow-[#764ABC]",
+            cover: "from-black to-[#764ABC] rounded-b-md",
+            opacity: "opacity-80"
 
-    //     }
-    // },
-    // {
-    //     id: 29,
-    //     icon: <PostMan />,
-    //     name: "PostMan",
-    //     style: {
-    //         shadow: "shadow-[#FF6C37]",
-    //         cover: "from-black to-[#FF6C37] rounded-b-md",
-    //         opacity: "opacity-80"
+        }
+    },
+    {
+        id: 29,
+        icon: <PostMan />,
+        name: "PostMan",
+        style: {
+            shadow: "shadow-[#FF6C37]",
+            cover: "from-black to-[#FF6C37] rounded-b-md",
+            opacity: "opacity-80"
 
-    //     }
-    // },
+        }
+    },
     {
         id: 30,
         icon: <JQuery />,

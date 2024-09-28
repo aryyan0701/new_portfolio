@@ -59,18 +59,18 @@ const projects = [
             display: " hidden group-hover:flex"
         }
     },
-    {
-        img: Task_Tracker,
-        name: "Ecommerce_Dashboard",
-        demo: "https://notes-seven-liart.vercel.app/",
-        code: "https://github.com/aryyan0701/notes",
-        description: " This platform is designed to help users manage their daily tasks effectively, built with reactjs, tailwind for styling, framer-motion library, vercel.",
-        style: {
-            shadow: "shadow-[#3498AB]",
-            cover: "from-[#3498AB]",
-            display: " hidden group-hover:flex"
-        }
-    },
+    // {
+    //     img: Task_Tracker,
+    //     name: "Ecommerce_Dashboard",
+    //     demo: "https://notes-seven-liart.vercel.app/",
+    //     code: "https://github.com/aryyan0701/notes",
+    //     description: " This platform is designed to help users manage their daily tasks effectively, built with reactjs, tailwind for styling, framer-motion library, vercel.",
+    //     style: {
+    //         shadow: "shadow-[#3498AB]",
+    //         cover: "from-[#3498AB]",
+    //         display: " hidden group-hover:flex"
+    //     }
+    // },
     {
         img: Quizzify,
         name: "Quizzify",
@@ -95,18 +95,18 @@ const projects = [
     //         display: " hidden group-hover:flex"
     //     }
     // },
-    {
-        img: Sandbox,
-        name: "sandbox_clone",
-        demo: "https://aryyan0701.github.io/sandbox_clone/",
-        code: "https://github.com/aryyan0701/sandbox_clone",
-        description: "This project is a clone of the Sandbox website, offering seamless and impressive design both in web and responsive formats.",
-        style: {
-            shadow: "shadow-[#F8FAFC]",
-            cover: "from-[#F8FAFC]",
-            display: " hidden group-hover:flex"
-        }
-    },
+    // {
+    //     img: Sandbox,
+    //     name: "sandbox_clone",
+    //     demo: "https://aryyan0701.github.io/sandbox_clone/",
+    //     code: "https://github.com/aryyan0701/sandbox_clone",
+    //     description: "This project is a clone of the Sandbox website, offering seamless and impressive design both in web and responsive formats.",
+    //     style: {
+    //         shadow: "shadow-[#F8FAFC]",
+    //         cover: "from-[#F8FAFC]",
+    //         display: " hidden group-hover:flex"
+    //     }
+    // },
     // {
     //     img: Guessing_Game,
     //     name: "Guess-the-name",
@@ -143,18 +143,18 @@ const projects = [
     //         display: " hidden group-hover:flex"
     //     }
     // },
-    {
-        img: Currency_Converter,
-        name: "Currency_Converter",
-        demo: "",
-        code: "https://github.com/aryyan0701/Currency_converter",
-        description: "Simple Currency Converter app created using HTML, CSS, JS, Bootstrap and REST api.",
-        style: {
-            shadow: "shadow-[#CEC3FB]",
-            cover: "from-[#CEC3FB]",
-            display: " hidden group-hover:flex"
-        }
-    },
+    // {
+    //     img: Currency_Converter,
+    //     name: "Currency_Converter",
+    //     demo: "",
+    //     code: "https://github.com/aryyan0701/Currency_converter",
+    //     description: "Simple Currency Converter app created using HTML, CSS, JS, Bootstrap and REST api.",
+    //     style: {
+    //         shadow: "shadow-[#CEC3FB]",
+    //         cover: "from-[#CEC3FB]",
+    //         display: " hidden group-hover:flex"
+    //     }
+    // },
     // {
     //     img: CLI_TMA,
     //     name: "Task Manager CLI",

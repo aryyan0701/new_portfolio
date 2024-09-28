@@ -4,9 +4,8 @@ import { Link } from 'react-scroll'
 import navLinks from '../data/navlinks'
 import contactInfo from '../data/contactInfo'
 const Footer = () => {
-    const year = new Date().getFullYear().toString()
     return (
-        <div className='bg-gradient-to-t from-gray-500 via-black to-black  w-full  text-gray-300'>
+        <div className='bg-gradient-to-t from-black via-black to-gray-900 w-full  text-gray-300'>
             <div className="section pb-5">
                 <div className="flex flex-wrap justify-between ">
                     <div className="w-full sm:w-3/5 lg:w-2/5 pr-2">
@@ -25,7 +24,7 @@ const Footer = () => {
                                         <div className="flex items-center justify-between w-fit gap-2 font-semibold text-white cursor-pointer">
                                             <ArrowRightLong />
                                             <span className='bg-clip-text bg-gradient-to-r from-cyan-500 via-cyan-500 to-blue-500 group-hover:text-transparent duration-500 group-hover:animate-pulse '>
-                                                {link}
+                                                {link.toUpperCase()}
                                             </span>
                                         </div>
                                     </Link>
@@ -61,7 +60,7 @@ const Footer = () => {
             <div className="section py-2 text-black font-advanced">
                 <div className="">
                     <p className=' text-sm text-gray-300 flex justify-center items-center  '>
-                        <span className="px-1 pb-[0.2rem]">  <CopyRight /></span> {`2022- ${year}`} | All Rights Reserved</p>
+                        <span className="px-1 pb-[0.2rem]">  <CopyRight /></span>  All Rights Reserved</p>
                 </div>
             </div>
         </div >

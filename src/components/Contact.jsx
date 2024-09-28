@@ -25,9 +25,9 @@ const Contact = () => {
     }, [])
 
     return (
-        <div id="Contact" className='pt-10 h-full min-h-screen w-full flex items-center bg-gradient-to-b to-gray-800 from-black'>
+        <div id="Contact" className='pt-10 h-full min-h-screen w-full flex items-center bg-gradient-to-b from-gray-900 via-black to-black'>
             <div className='section'>
-                <SectionHeading heading="Contact" secondHeading="Fill the form to get in touch with me" />
+                <h2 className="text-3xl font-bold text-start mb-8 text-gray-300">Get in touch with me</h2>
                 <div className='flex justify-center items-center'>
                     <form onSubmit={handleSubmit} className='flex gap-3 flex-col w-full md:w-1/2 '>
                         <div className=" w-full">
