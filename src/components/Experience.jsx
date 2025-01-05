@@ -2,8 +2,17 @@ import React from 'react';
 
 const experiences = [
   {
+    company: "PAR Solution",
+    position: "Software Developer Trainee",
+    link: "https://parsolution.net/",
+    duration: "Dec 2024 - Present",
+    description: "Worked as a Frontend Developer using React and Next.js to build scalable and high-performing web applications from scratch. Contributed to designing and implementing responsive user interfaces while ensuring seamless user experience and smooth performance. Gained expertise in modern web development practices, collaborating with the team to deliver robust digital solutions.",
+    skills: ["React", "Next.js", "Frontend Development", "Responsive Design", "REST API's"]
+  },
+  {
     company: "Swami Infotech ",
     position: "Frontend Developer (Intern)",
+    link: "https://www.swamiinfotech.in/",
     duration: "Feb 2024 - may 2024 ",
     description: "As a Frontend Development Intern, I actively engaged in web development, focusing on creating visually appealing and responsive frontend elements. Gained hands-on experience with API integration, ensuring seamless data flow between the frontend and backend. Developed a strong foundation in web development, improving my ability to craft high-quality UI components and elements.",
     skills: ["Angular", "TypeScript","UI Creation", "Bootstrap", "REST API's"]
@@ -22,7 +31,7 @@ function ExperienceSection() {
               <div className="bg-blue-500 text-white p-4">
                 <h3 className="text-xl font-semibold flex items-center">
                   <span className="mr-2">&#128188;</span>
-                  {exp.company}
+                  <a href={exp.link} target="_blank" rel="noopener noreferrer" className='hover:underline' >{exp.company}</a>
                 </h3>
                 <p className="text-sm mt-1 opacity-90">{exp.position}</p>
               </div>

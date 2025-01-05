@@ -26,12 +26,12 @@ const TechStack = [
         name: "TailwindCSS",
 
     },
-    // {
-    //     id: 4,
-    //     icon: <NextJs width={35} height1={20} height2={15} />,
-    //     name: "NextJs",
+    {
+        id: 4,
+        icon: <NextJs width={35} height1={20} height2={15} />,
+        name: "NextJs",
 
-    // },
+    },
     {
         id: 4,
         icon: <FireBase width={25} height={30} />,

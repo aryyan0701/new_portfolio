@@ -4,26 +4,6 @@ import ReactJs, { Bash, Bootstrap, C, CPlusPlus, CSharp, CSS, Doker, DotNet, Exp
 
 const skills = [
     {
-        id: 1,
-        icon: <HTML />,
-        name: "HTML",
-        style: {
-            shadow: "shadow-[#ca4828]",
-            cover: "from-black to-[#ca4828]  rounded-b-md",
-            opacity: "opacity-80"
-        }
-    },
-    {
-        id: 2,
-        icon: <CSS />,
-        name: "CSS",
-        style: {
-            shadow: "shadow-[#1d64c7]",
-            cover: "from-black to-[#1d64c7] rounded-b-md",
-            opacity: "opacity-80"
-        }
-    },
-    {
         id: 3,
         icon: <JS />,
         name: "JS",
@@ -41,6 +21,39 @@ const skills = [
             shadow: "shadow-[#3481d3]",
             cover: "from-black to-[#3481d3] rounded-b-md",
             opacity: "opacity-80"
+        }
+    },
+    {
+        id: 7,
+        icon: <ReactJs />,
+        name: "React",
+        style: {
+            shadow: "shadow-[#61DAFB]",
+            cover: "from-black to-[#61DAFB] rounded-b-md",
+            opacity: "opacity-80"
+        }
+    },
+
+    {
+        id: 8,
+
+        icon: <NodeJS />,
+        name: "Node Js",
+        style: {
+            shadow: "shadow-[#83CD27]",
+            cover: "from-black to-[#83CD27] rounded-b-md",
+            opacity: "opacity-80"
+        }
+    },
+    {
+        id: 9,
+        icon: <NextJs />,
+        name: "NextJs",
+        style: {
+            shadow: "shadow-[#646464]",
+            cover: "from-black to-[#646464] rounded-b-md",
+            opacity: "opacity-80"
+
         }
     },
     {
@@ -64,40 +77,28 @@ const skills = [
             opacity: "opacity-80"
         }
     },
-
     {
-        id: 7,
-        icon: <ReactJs />,
-        name: "React",
+        id: 28,
+        icon: <Redux />,
+        name: "Redux",
         style: {
-            shadow: "shadow-[#61DAFB]",
-            cover: "from-black to-[#61DAFB] rounded-b-md",
+            shadow: "shadow-[#764ABC]",
+            cover: "from-black to-[#764ABC] rounded-b-md",
             opacity: "opacity-80"
+
         }
     },
-
     {
-        id: 8,
-
-        icon: <NodeJS />,
-        name: "Node Js",
+        id: 29,
+        icon: <PostMan />,
+        name: "PostMan",
         style: {
-            shadow: "shadow-[#83CD27]",
-            cover: "from-black to-[#83CD27] rounded-b-md",
+            shadow: "shadow-[#FF6C37]",
+            cover: "from-black to-[#FF6C37] rounded-b-md",
             opacity: "opacity-80"
+
         }
     },
-    // {
-    //     id: 9,
-    //     icon: <NextJs />,
-    //     name: "NextJs",
-    //     style: {
-    //         shadow: "shadow-[#646464]",
-    //         cover: "from-black to-[#646464] rounded-b-md",
-    //         opacity: "opacity-80"
-
-    //     }
-    // },
     {
         id: 10,
         icon: <TailwindCSS />,
@@ -313,39 +314,17 @@ const skills = [
 
     //     }
     // },
-    {
-        id: 28,
-        icon: <Redux />,
-        name: "Redux",
-        style: {
-            shadow: "shadow-[#764ABC]",
-            cover: "from-black to-[#764ABC] rounded-b-md",
-            opacity: "opacity-80"
+    // {
+    //     id: 30,
+    //     icon: <JQuery />,
+    //     name: "JQuery",
+    //     style: {
+    //         shadow: "shadow-[#1266A9]",
+    //         cover: "from-black to-[#1266A9] rounded-b-md",
+    //         opacity: "opacity-80"
 
-        }
-    },
-    {
-        id: 29,
-        icon: <PostMan />,
-        name: "PostMan",
-        style: {
-            shadow: "shadow-[#FF6C37]",
-            cover: "from-black to-[#FF6C37] rounded-b-md",
-            opacity: "opacity-80"
-
-        }
-    },
-    {
-        id: 30,
-        icon: <JQuery />,
-        name: "JQuery",
-        style: {
-            shadow: "shadow-[#1266A9]",
-            cover: "from-black to-[#1266A9] rounded-b-md",
-            opacity: "opacity-80"
-
-        }
-    },
+    //     }
+    // },
     // {
     //     id: 31,
     //     icon: <Doker />,
